@@ -1,0 +1,288 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/1d56825274321d9c.owo")
+  //- 领导人头像
+  img.top(src="@|top.png|")
+  .search-bar.clear
+    select.fl
+      option(value ="all") 全部
+      option(value ="content") 内容
+    .input-bar.fl
+      input(type="text" placeholder="请输入您要查询的信息")
+    .search-button.fl
+      img(src="@|search-button.png|")
+  .bottom-select-bar.clear
+    select.time.fl
+      option(value ="time" disabled="disabled" selected) 时间
+      option(value ="all") 不限
+      option(value ="2021") 2021
+      option(value ="2020") 2020
+      option(value ="2019") 2019
+      option(value ="2018") 2018
+    select.type.fl
+      option(value ="type" disabled="disabled" selected) 类型
+      option(value ="jh") 讲话
+      option(value ="hy") 会议
+      option(value ="hd") 活动
+      option(value ="kc") 考察
+      option(value ="hj") 会见
+      option(value ="cf") 出访
+      option(value ="hd") 函电
+    select.type.fl
+      option(value ="site" disabled="disabled" selected) 领域
+    .radio-box.fr
+      input(name="search" type="radio" value="jingque")
+      label 精确搜索
+      label
+      input(name="search" type="radio" value="mohu")
+      label 模糊搜索
+  .icon-box.clear.w1200
+    <a href="result"><img src="http://jhsjk.people.cn/images/btn21.png" alt="原文" title="原文"></a>
+    <a href="result?form=706&amp;else=501"><img src="http://jhsjk.people.cn/images/btn22.png" alt="讲话" title="讲话"></a>
+    <a href="result?form=701&amp;else=501"><img src="http://jhsjk.people.cn/images/btn23.png" alt="会议" title="会议"></a>
+    <a href="result?form=702&amp;else=501"><img src="http://jhsjk.people.cn/images/btn24.png" alt="活动" title="活动"></a>
+    <a href="result?form=703&amp;else=501"><img src="http://jhsjk.people.cn/images/btn25.png" alt="考察" title="考察"></a>
+    <a href="result?form=704&amp;else=501"><img src="http://jhsjk.people.cn/images/btn26.png" alt="会见" title="会见"></a>
+    <a href="result?form=705&amp;else=501"><img src="http://jhsjk.people.cn/images/btn27.png" alt="出访" title="出访"></a>
+    <a href="result?form=707&amp;else=501"><img src="http://jhsjk.people.cn/images/btn28.png" alt="函电" title="函电"></a>
+  .icon-box-2.clear.w1200
+    <a href="result?type=101"><img src="http://jhsjk.people.cn/images/btn1.png" alt="经济" title="经济"></a>
+    <a href="result?type=102"><img src="http://jhsjk.people.cn/images/btn2.png" alt="政治" title="政治"></a>
+    <a href="result?type=103"><img src="http://jhsjk.people.cn/images/btn3.png" alt="文化" title="文化"></a>
+    <a href="result?type=104"><img src="http://jhsjk.people.cn/images/btn4.png" alt="社会" title="社会"></a>
+    <a href="result?type=105"><img src="http://jhsjk.people.cn/images/btn5.png" alt="生态" title="生态"></a>
+    <a href="result?type=106"><img src="http://jhsjk.people.cn/images/btn6.png" alt="党建" title="党建"></a>
+    <a href="result?type=107"><img src="http://jhsjk.people.cn/images/btn7.png" alt="国防" title="国防"></a>
+    <a href="result?type=108"><img src="http://jhsjk.people.cn/images/btn8.png" alt="外交" title="外交"></a>
+  .tab-news.w1200
+    .tab-bar.clear
+      .item.fl 新闻
+      .item.fl 国内
+      .item.fl 国际
+    .news
+      ul
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+        li
+          a(href="#" target="_blank")
+            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+            i 来源：人民日报、新华网 【2021-01-02】
+      .pagination
+        .page-item 1
+        .page-item 2
+        .page-item 3
+        .page-item 4
+        .page-item 5
+        .page-item 6
+        .page-item 7
+        .page-item.next 下一页
+</div>
+</div>
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+select:focus, input:focus{
+  outline: none;
+}
+.top {
+  display: block;
+  width: 100%;
+}
+.search-button {
+  background-color: #bf3022;
+}
+.search-bar {
+  width: 1100px;
+  margin: 0 auto;
+  height: 85px;
+  select {
+    height: 85px;
+    width: 120px;
+    font-size: 30px;
+    border: none;
+    background-color: #c9ba8c;
+    color: white;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('@|select.png|');
+    background-repeat: no-repeat;
+    background-position: 90px center;
+    padding: 0 10px;
+  }
+  input {
+    border: none;
+    background-color: white;
+    display: block;
+    height: 85px;
+    width: 760px;
+    padding: 0 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  .search-button {
+    height: 85px;
+    width: 180px;
+    position: relative;
+    cursor: pointer;
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      user-select: none;
+      pointer-events:  none;
+    }
+  }
+  .search-button:hover img {
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.bottom-select-bar {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 331px;
+  margin-bottom: 60px;
+  select {
+    border: none;
+    background-color: #c9ba8c;
+    color: white;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('@|select.png|');
+    background-repeat: no-repeat;
+    background-position: 72px center;
+    padding: 0 10px;
+    height: 42px;
+    width: 100px;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
+.radio-box {
+  line-height: 42px;
+  color: #976835;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  label {
+    margin-right: 5px;
+  }
+  input {
+    margin-right: 5px;
+  }
+}
+.icon-box, .icon-box-2 {
+  a {
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
+.tab-news {
+  .item {
+    width: 33.3%;
+    background-color: #eee3b9;
+    text-align: center;
+    line-height: 55px;
+    font-size: 28px;
+  }
+  .news {
+    background-color: #f9f6ea;
+    padding: 30px 40px;
+  }
+  li {
+    line-height: 40px;
+    color: #31312d;
+    font-size: 18px;
+    position: relative;
+  }
+  li:hover, a:hover {
+    color: #c61202;
+  }
+  a {
+    display: inline-block;
+    color: #31312d;
+  }
+  i {
+    position: absolute;
+    right: 0;
+    font-style: normal;
+  }
+  ul {
+    margin-bottom: 30px;
+  }
+  .pagination {
+    text-align: center;
+    .page-item {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color: #fffbea;
+      text-align: center;
+      line-height: 35px;
+      border: 1px solid #b18b52;
+      border-radius: 5px;
+      margin: 0 8px;
+      color: #856029;
+      cursor: pointer;
+    }
+    a {
+      color: #856029;
+    }
+    .next {
+      width: 80px;
+    }
+  }
+}
+</style>
