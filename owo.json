@@ -68,6 +68,10 @@
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "tab",
+			"src": "./src/tab.js"
 		}
 	],
 	"styleList": [

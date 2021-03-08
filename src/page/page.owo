@@ -3,39 +3,40 @@
   plug(_name="module98" _src="https://template.owo.ink/1d56825274321d9c.owo")
   //- 领导人头像
   img.top(src="@|top.png|")
-  .search-bar.clear
-    select.fl
-      option(value ="all") 全部
-      option(value ="content") 内容
-    .input-bar.fl
-      input(type="text" placeholder="请输入您要查询的信息")
-    .search-button.fl
-      img(src="@|search-button.png|")
-  .bottom-select-bar.clear
-    select.time.fl
-      option(value ="time" disabled="disabled" selected) 时间
-      option(value ="all") 不限
-      option(value ="2021") 2021
-      option(value ="2020") 2020
-      option(value ="2019") 2019
-      option(value ="2018") 2018
-    select.type.fl
-      option(value ="type" disabled="disabled" selected) 类型
-      option(value ="jh") 讲话
-      option(value ="hy") 会议
-      option(value ="hd") 活动
-      option(value ="kc") 考察
-      option(value ="hj") 会见
-      option(value ="cf") 出访
-      option(value ="hd") 函电
-    select.type.fl
-      option(value ="site" disabled="disabled" selected) 领域
-    .radio-box.fr
-      input(name="search" type="radio" value="jingque")
-      label 精确搜索
-      label
-      input(name="search" type="radio" value="mohu")
-      label 模糊搜索
+  .w1100
+    .search-bar.clear
+      select.fl
+        option(value ="all") 全部
+        option(value ="content") 内容
+      .input-bar.fl
+        input(type="text" placeholder="请输入您要查询的信息")
+      .search-button.fl
+        img(src="@|search-button.png|")
+    .bottom-select-bar.clear
+      select.time.fl
+        option(value ="time" disabled="disabled" selected) 时间
+        option(value ="all") 不限
+        option(value ="2021") 2021
+        option(value ="2020") 2020
+        option(value ="2019") 2019
+        option(value ="2018") 2018
+      select.type.fl
+        option(value ="type" disabled="disabled" selected) 类型
+        option(value ="jh") 讲话
+        option(value ="hy") 会议
+        option(value ="hd") 活动
+        option(value ="kc") 考察
+        option(value ="hj") 会见
+        option(value ="cf") 出访
+        option(value ="hd") 函电
+      select.type.fl
+        option(value ="site" disabled="disabled" selected) 领域
+      .radio-box.fr
+        input(name="search" type="radio" value="jingque")
+        label 精确搜索
+        label
+        input(name="search" type="radio" value="mohu")
+        label 模糊搜索
   .icon-box.clear.w1200
     <a href="result"><img src="http://jhsjk.people.cn/images/btn21.png" alt="原文" title="原文"></a>
     <a href="result?form=706&amp;else=501"><img src="http://jhsjk.people.cn/images/btn22.png" alt="讲话" title="讲话"></a>
@@ -114,12 +115,101 @@
         .page-item 6
         .page-item 7
         .page-item.next 下一页
+  .tab-box
+    .w1200.clear
+      .left-box.fl
+        .left-item 视频
+        .left-item 图集
+        .left-item 原音
+      .right-conn
+        .right-item
+          img.left-image(src="")
+          .right-item-box
+            .item
+              img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+            .text
+              h2 杂志发表习近平重要文章
+              p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+        .right-item 2
+          img.left-image(src="")
+          .right-item-box
+            .item
+              img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+            .text
+              h2 杂志发表习近平重要文章
+              p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+        .right-item
+          img.left-image(src="")
+          .right-item-box
+            .item
+              img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+            .text
+              h2 杂志发表习近平重要文章
+              p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+  .w1200
+    .title 学习书库
+    .bookshelf
+      .swiper-container
+        .swiper-wrapper
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-1.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-2.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-1.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-2.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-1.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-2.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-1.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-2.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-1.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-2.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-1.png|")
+          .swiper-slide
+            a(href="#" target="_blank")
+              img(src="@|book-2.png|")
+    .card3.clear
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+  plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
 </div>
 </div>
 </template>
 
 <script>
   module.exports = {
+    created: function () {
+      var mySwiper = new Swiper('.swiper-container',{
+        loop:true,
+        slidesPerView: 4,
+        // grabCursor: true,
+        // paginationClickable: true
+      })
+      new tabIt(document.querySelectorAll('.tab-box .left-item'), document.querySelectorAll('.tab-box .right-item'), 'mouseover')
+    }
 
   }
 </script>
@@ -190,8 +280,8 @@ select:focus, input:focus{
 .bottom-select-bar {
   width: 980px;
   margin: 0 auto;
-  padding: 0 331px;
   margin-bottom: 60px;
+  padding-left: 118px;
   select {
     border: none;
     background-color: #c9ba8c;
@@ -203,7 +293,7 @@ select:focus, input:focus{
     background-repeat: no-repeat;
     background-position: 72px center;
     padding: 0 10px;
-    height: 42px;
+    height: 34px;
     width: 100px;
     font-size: 18px;
     margin-right: 10px;
@@ -229,7 +319,8 @@ select:focus, input:focus{
     margin: 0 15px;
   }
 }
-.tab-news {
+.w1200.tab-news {
+  margin-bottom: 40px;
   .item {
     width: 33.3%;
     background-color: #eee3b9;
@@ -283,6 +374,59 @@ select:focus, input:focus{
     .next {
       width: 80px;
     }
+  }
+}
+.title {
+  line-height: 36px;
+  font-size: 22px;
+  font-weight: bold;
+  border-left: 3px solid #bd403a;
+  padding-left: 10px;
+  margin: 15px 0;
+  color: #bd403a;
+}
+.bookshelf {
+  background-image: url('@|bookshelf.png|');
+  height: 440px;
+  background-size: 117% auto;
+  background-position: center 346px;
+  background-repeat: no-repeat;
+  .swiper-container {
+    height: 100%;
+  }
+}
+.card3 {
+  a, img {
+    display: block;
+    width: 380px;
+    height: 140px;
+  }
+  a {
+    float: left;
+  }
+  a:nth-child(2) {
+    margin: 0 30px;
+  }
+}
+.tab-box {
+  background-color: #f9f6e8;
+  height: 375px;
+  padding: 30px 0;
+}
+.left-box {
+  .left-item {
+    background-image: url('@|left.png|');
+    width: 236px;
+    height: 91px;
+    color: white;
+    font-size: 38px;
+    line-height: 91px;
+    padding-left: 30px;
+    margin: 25px 0;
+    cursor: pointer;
+  }
+  .left-item.active {
+    width: 267px;
   }
 }
 </style>
