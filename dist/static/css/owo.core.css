@@ -111,6 +111,282 @@ li {
 .header1 em a:hover {
   color: #666;
 }
+.content {
+  background: url(../resource/rili-bg.png) center top no-repeat;
+  width: 826px;
+  height: 570px;
+  position: relative;
+}
+
+.content .news_wrap {
+  margin: 0px 10px;
+  height: 490px;
+  overflow-y: auto;
+  width: 325px;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.content .news_wrap ul {
+  width: 355px;
+  margin: 0 auto;
+}
+
+.content .news_wrap ul li {
+  margin-bottom: 25px;
+}
+
+.content .news_wrap ul li h2 {
+  padding-bottom: 10px;
+}
+
+.content .news_wrap ul li h2 a {
+  font-size: 24px;
+  line-height: 34px;
+  color: #000;
+  font-family: "微软雅黑";
+}
+
+.content .news_wrap ul li p {
+  background: url(images/p_bg.jpg) repeat;
+  margin-top: 15px;
+}
+
+.content .news_wrap ul li p a {
+  font-size: 12px;
+  line-height: 30px;
+  color: #765c50;
+}
+
+/*日历*/
+
+.content .w980 {
+  position: relative;
+}
+
+.content .ding1 {
+  position: absolute;
+  left: 343px;
+  z-index: 2222;
+  top: 98px;
+}
+
+.content .ding2 {
+  position: absolute;
+  left: 342px;
+  z-index: 2222;
+  top: 406px;
+}
+
+.content .fr {
+  width: 370px;
+  margin-right: 10px;
+  height: 650px;
+  position: relative;
+}
+
+.content #datepicker {
+  margin-top: 120px;
+}
+
+.content .ui-datepicker-title {
+  float: right;
+  padding-bottom: 15px;
+}
+
+.content .ui-datepicker-title select {
+  font-size: 18px;
+  background-color: #d65252;
+  color: #fff;
+}
+
+.content .ui-datepicker-calendar {
+  border-spacing: 0;
+  margin-top: 15px;
+}
+
+.content .ui-datepicker-calendar td {
+  margin: 0;
+  border: 0;
+}
+
+.content .ui-datepicker-calendar th span {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin: 1px 1px 0 0;
+  background-color: #f0e5e0;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  color: #c33;
+}
+
+.content .ui-state-default,
+.content .ui-state-default:link,
+.content .ui-state-default:active {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin: 1px 1px 0 0;
+  background-color: #d65252;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.content .ui-datepicker-current-day .ui-state-default {
+  background: url(images/i-active.png) top right no-repeat;
+}
+
+/*无法点击的日期*/
+
+.content .ui-state-disabled .ui-state-default {
+  color: #a31414;
+}
+
+.content .news_wrap {
+  display: none;
+}
+
+.content .origin {
+  position: absolute;
+  right: 190px;
+  font-size: 16px;
+  color: #fff;
+  width: 200px;
+}
+
+.content .no_news {
+  font-size: 18px;
+  color: #666;
+}
+
+.content .datepicker,
+.content .datepicker * {
+  box-sizing: border-box;
+}
+
+.content .table-dp {
+  width: 340px;
+  height: 335px;
+  display: block;
+  margin-left: 20px;
+}
+
+.content .table-dp th {
+  height: 45px;
+  line-height: 45px;
+  margin: 1px 1px 0 0;
+  background-color: #f0e5e0;
+  font-size: 18px;
+  text-align: center;
+  color: #c33;
+}
+
+.content .table-dp td {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-size: 0;
+}
+
+.content .table-dp td span a {
+  color: #fff;
+}
+
+.content .table-dp td span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+  color: #fff;
+  background: #d65252;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content .table-dp td.active:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  width: 14px;
+  height: 14px;
+  background: url(http://cpc.people.com.cn/img/MAIN/2014/11/114969/images/i-active.png) center no-repeat;
+  content: "";
+}
+
+.content .table-dp td.disabled span {
+  cursor: default;
+  color: #a31414;
+}
+
+.content .table-dp td.disabled span a {
+  color: #a31414;
+}
+
+.content .date-switch-wrap {
+  color: #fff;
+  /* margin-left: 240px; */
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.content .date-switch-wrap select {
+  font-size: 18px;
+  background-color: #d65252;
+  color: #fff;
+  /* outline: 0; */
+}
+
+.content .banner-mobile img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.content .for-mobile {
+  display: none;
+}
+
+.content .for-pc {
+  display: block;
+}
+
+.content .arrow-left1,
+.content .arrow-right1 {
+  display: none;
+}
+
+.content .w980 {
+  width: 980px;
+}
+
+.content .titu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+
+.content .w980 {
+  width: 770px;
+  height: 530px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #cd3333;
+}
 #copyright {
   height: 60px;
   padding: 40px 0;
@@ -370,5 +646,122 @@ input:focus {
 
 .left-box .left-item.active {
   width: 267px;
+}
+
+.right-item {
+  width: 880px;
+}
+
+.right-item .left-image {
+  width: 480px;
+  height: 320px;
+  display: block;
+}
+
+.right-item .right-item-box {
+  width: 400px;
+}
+
+.right-item .right-item-box .item {
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+.right-item .right-item-box.active .mini-show {
+  display: none;
+}
+
+.right-item .right-item-box.active .item {
+  background-color: #cbbc8b;
+}
+
+.right-item .right-item-box.active .text {
+  width: 380px;
+  color: white;
+  padding-left: 10px;
+}
+
+.right-item .right-item-box.active h2,
+.right-item .right-item-box.active a {
+  color: white;
+}
+
+.right-item .mini-show {
+  width: 160px;
+  height: 90px;
+  float: left;
+}
+
+.right-item .text {
+  float: right;
+  width: 220px;
+}
+
+.right-item .text h2 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.right-item .text p {
+  text-indent: 2em;
+  height: 60px;
+  overflow: hidden;
+  line-height: 21px;
+}
+
+.right-conn {
+  margin: 30px 0;
+}
+
+.swiper-slide a {
+  display: block;
+}
+
+.bdrl .fr {
+  width: 360px;
+}
+
+.show2-box .image-item {
+  width: 170px;
+  padding: 0 5px;
+}
+
+.show2-box .image-item img {
+  width: 100%;
+}
+
+.show2-box .image-item a {
+  color: #000000;
+}
+
+.select-item {
+  margin-top: 30px;
+}
+
+.select-item li {
+  float: left;
+  width: 160px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  margin: 10px;
+  color: #333;
+}
+
+.select-item li a {
+  color: #333;
+  font-size: 16px;
+}
+
+.select-item li:hover {
+  background-color: #bd403a;
+  color: white;
+}
+
+.select-item li:hover a {
+  color: white;
 }
 

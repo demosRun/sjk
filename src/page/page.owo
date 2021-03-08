@@ -115,37 +115,80 @@
         .page-item 6
         .page-item 7
         .page-item.next 下一页
+  //- rili
+  .bdrl.w1200.clear
+    plug.fl(_name="bdrl" _src="./src/page/bdrl.owo")
+    .fr
+      .title 专题资料库
+      .show2-box.clear
+        .image-item.fl
+          a(href="#" target="_blank")
+            img(src="@|show.png|")
+            p 阐释创新理论，解读重大决策部署——“言之有理”栏目
+        .image-item.fr
+          a(href="#" target="_blank")
+            img(src="@|show.png|")
+            p 阐释创新理论，解读重大决策部署——“言之有理”栏目
+      ul.select-item.clear
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
   .tab-box
     .w1200.clear
       .left-box.fl
         .left-item 视频
         .left-item 图集
         .left-item 原音
-      .right-conn
-        .right-item
-          img.left-image(src="")
-          .right-item-box
-            .item
+      .right-conn.fr
+        .right-item.clear
+          img.fl.left-image(src="")
+          .right-item-box.fr(onmouseenter="changeCard(this)")
+            .item.clear
               img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
-            .text
-              h2 杂志发表习近平重要文章
-              p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
-        .right-item 2
-          img.left-image(src="")
-          .right-item-box
-            .item
+              .text
+                h2 杂志发表习近平重要文章
+                p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+          .right-item-box.fr(onmouseenter="changeCard(this)")
+            .item.clear
               img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
-            .text
-              h2 杂志发表习近平重要文章
-              p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
-        .right-item
-          img.left-image(src="")
-          .right-item-box
-            .item
+              .text
+                h2 杂志发表习近平重要文章
+                p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+          .right-item-box.fr(onmouseenter="changeCard(this)")
+            .item.clear
               img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
-            .text
-              h2 杂志发表习近平重要文章
-              p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+              .text
+                h2 杂志发表习近平重要文章
+                p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+        .right-item.clear
+          img.fl.left-image(src="")
+          .right-item-box.fr(onmouseenter="changeCard(this)")
+            .item.clear
+              img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+              .text
+                h2 杂志发表习近平重要文章
+                p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+        .right-item.clear
+          img.fl.left-image(src="")
+          .right-item-box.fr(onmouseenter="changeCard(this)")
+            .item.clear
+              img.mini-show(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
+              .text
+                h2 杂志发表习近平重要文章
+                p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
   .w1200
     .title 学习书库
     .bookshelf
@@ -195,8 +238,6 @@
       a(href="#" target="_blank")
         img(src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg")
   plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
-</div>
-</div>
 </template>
 
 <script>
@@ -209,6 +250,11 @@
         // paginationClickable: true
       })
       new tabIt(document.querySelectorAll('.tab-box .left-item'), document.querySelectorAll('.tab-box .right-item'), 'mouseover')
+      document.querySelectorAll('.right-conn .right-item').forEach(element => {
+        element.querySelector('.right-item-box').classList.add('active')
+        element.querySelector('.left-image').src = element.querySelector('.right-item-box .mini-show').src
+      });
+      
     }
 
   }
@@ -427,6 +473,106 @@ select:focus, input:focus{
   }
   .left-item.active {
     width: 267px;
+  }
+}
+.right-item {
+  width: 880px;
+  .left-image {
+    width: 480px;
+    height: 320px;
+    display:  block;
+  }
+  .right-item-box {
+    width: 400px;
+    .item {
+      padding: 8px 5px;
+      cursor: pointer;
+    }
+  }
+  .right-item-box.active {
+    .mini-show {
+      display: none;
+    }
+    .item  {
+      background-color: #cbbc8b;
+    }
+    .text {
+      width: 380px;
+      
+      color: white;
+      padding-left: 10px;
+    }
+    h2, a {
+      color: white;
+    }
+  }
+  .mini-show {
+    width: 160px;
+    height: 90px;
+    float: left;
+  }
+  .text {
+    float: right;
+    width: 220px;
+    h2 {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    p {
+      text-indent: 2em;
+      height: 60px;
+      overflow: hidden;
+      line-height: 21px;
+    }
+  }
+}
+.right-conn {
+  margin: 30px 0;
+}
+.swiper-slide a {
+  display: block;
+}
+.bdrl {
+  .fr {
+    width: 360px;
+  }
+}
+.show2-box {
+  .image-item {
+    width: 170px;
+    padding: 0 5px;
+    img {
+      width: 100%;
+    }
+    a {
+      color: #000000;
+    }
+  }
+}
+.select-item {
+  margin-top: 30px;
+  li {
+    float: left;
+    width: 160px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 10px;
+    color: #333;
+    a {
+      color: #333;
+      font-size: 16px;
+    }
+  }
+  li:hover {
+    background-color: #bd403a;
+    color: white;
+    a {
+      color: white;
+    }
   }
 }
 </style>
