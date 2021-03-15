@@ -417,11 +417,11 @@ input:focus {
 .search-bar {
   width: 1100px;
   margin: 0 auto;
-  height: 85px;
+  height: 70px;
 }
 
 .search-bar select {
-  height: 85px;
+  height: 70px;
   width: 120px;
   font-size: 30px;
   border: none;
@@ -440,7 +440,7 @@ input:focus {
   border: none;
   background-color: white;
   display: block;
-  height: 85px;
+  height: 70px;
   width: 760px;
   padding: 0 20px;
   font-size: 24px;
@@ -448,7 +448,7 @@ input:focus {
 }
 
 .search-bar .search-button {
-  height: 85px;
+  height: 70px;
   width: 180px;
   position: relative;
   cursor: pointer;
@@ -516,7 +516,27 @@ input:focus {
 .icon-box a,
 .icon-box-2 a {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 28px;
+}
+
+.icon-box .active,
+.icon-box-2 .active {
+  display: none;
+}
+
+.icon-box a:hover,
+.icon-box-2 a:hover {
+  background-image: linear-gradient(#e1d7af, #cbb670);
+}
+
+.icon-box a:hover .ordinary,
+.icon-box-2 a:hover .ordinary {
+  display: none;
+}
+
+.icon-box a:hover .active,
+.icon-box-2 a:hover .active {
+  display: block;
 }
 
 .w1200.tab-news {
@@ -539,7 +559,7 @@ input:focus {
 .w1200.tab-news li {
   line-height: 40px;
   color: #31312d;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
 }
 
@@ -630,6 +650,7 @@ input:focus {
   background-color: #f9f6e8;
   height: 375px;
   padding: 30px 0;
+  margin-bottom: 40px;
 }
 
 .left-box .left-item {
@@ -763,5 +784,53 @@ input:focus {
 
 .select-item li:hover a {
   color: white;
+}
+
+.w1200.icon-box-2 {
+  margin-bottom: 40px;
+}
+
+.w1200.icon-box-2 a {
+  background-color: #e9ddb0;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.w1200.icon-box-2 a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 55px;
+}
+
+.w1200.icon-box {
+  margin-bottom: 30px;
+}
+
+.icon-box a {
+  background-color: #e9e3cb;
+  border-radius: 10px;
+  height: 60px;
+  position: relative;
+  width: 90px;
+}
+
+.icon-box a img {
+  position: absolute;
+  width: 68%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.icon-box a .active {
+  display: none;
 }
 

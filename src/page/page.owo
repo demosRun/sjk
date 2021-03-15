@@ -38,23 +38,23 @@
         input(name="search" type="radio" value="mohu")
         label 模糊搜索
   .icon-box.clear.w1200
-    <a href="result"><img src="http://jhsjk.people.cn/images/btn21.png" alt="原文" title="原文"></a>
-    <a href="result?form=706&amp;else=501"><img src="http://jhsjk.people.cn/images/btn22.png" alt="讲话" title="讲话"></a>
-    <a href="result?form=701&amp;else=501"><img src="http://jhsjk.people.cn/images/btn23.png" alt="会议" title="会议"></a>
-    <a href="result?form=702&amp;else=501"><img src="http://jhsjk.people.cn/images/btn24.png" alt="活动" title="活动"></a>
-    <a href="result?form=703&amp;else=501"><img src="http://jhsjk.people.cn/images/btn25.png" alt="考察" title="考察"></a>
-    <a href="result?form=704&amp;else=501"><img src="http://jhsjk.people.cn/images/btn26.png" alt="会见" title="会见"></a>
-    <a href="result?form=705&amp;else=501"><img src="http://jhsjk.people.cn/images/btn27.png" alt="出访" title="出访"></a>
-    <a href="result?form=707&amp;else=501"><img src="http://jhsjk.people.cn/images/btn28.png" alt="函电" title="函电"></a>
+    <a href="result?form=706&amp;else=501"><img class="ordinary" src="@|mini-jianghua.png|" alt="讲话" title="讲话"><img class="active" src="@|mini-jianghua-a.png|" alt="讲话" title="讲话"></a>
+    <a href="result?form=701&amp;else=501"><img class="ordinary" src="@|mini-huiyi.png|" alt="会议" title="会议"><img class="active" src="@|mini-huiyi-a.png|" alt="会议" title="会议"></a>
+    <a href="result?form=702&amp;else=501"><img class="ordinary" src="@|mini-huodong.png|" alt="活动" title="活动"><img class="active" src="@|mini-huodong-a.png|" alt="活动" title="活动"></a>
+    <a href="result?form=703&amp;else=501"><img class="ordinary" src="@|mini-kaocha.png|" alt="考察" title="考察"><img class="active" src="@|mini-kaocha-a.png|" alt="考察" title="考察"></a>
+    <a href="result?form=704&amp;else=501"><img class="ordinary" src="@|mini-huijian.png|" alt="会见" title="会见"><img class="active" src="@|mini-huijian-a.png|" alt="会见" title="会见"></a>
+    <a href="result?form=705&amp;else=501"><img class="ordinary" src="@|mini-chufang.png|" alt="出访" title="出访"><img class="active" src="@|mini-chufang-a.png|" alt="出访" title="出访"></a>
+    <a href="result?form=707&amp;else=501"><img class="ordinary" src="@|mini-handian.png|" alt="函电" title="函电"><img class="active" src="@|mini-handian-a.png|" alt="函电" title="函电"></a>
+    <a href="result?form=707&amp;else=501"><img class="ordinary" src="@|mini-qita.png|" alt="其它" title="其它"><img class="active" src="@|mini-qita.png|" alt="其它" title="其它"></a>
   .icon-box-2.clear.w1200
-    <a href="result?type=101"><img src="http://jhsjk.people.cn/images/btn1.png" alt="经济" title="经济"></a>
-    <a href="result?type=102"><img src="http://jhsjk.people.cn/images/btn2.png" alt="政治" title="政治"></a>
-    <a href="result?type=103"><img src="http://jhsjk.people.cn/images/btn3.png" alt="文化" title="文化"></a>
-    <a href="result?type=104"><img src="http://jhsjk.people.cn/images/btn4.png" alt="社会" title="社会"></a>
-    <a href="result?type=105"><img src="http://jhsjk.people.cn/images/btn5.png" alt="生态" title="生态"></a>
-    <a href="result?type=106"><img src="http://jhsjk.people.cn/images/btn6.png" alt="党建" title="党建"></a>
-    <a href="result?type=107"><img src="http://jhsjk.people.cn/images/btn7.png" alt="国防" title="国防"></a>
-    <a href="result?type=108"><img src="http://jhsjk.people.cn/images/btn8.png" alt="外交" title="外交"></a>
+    <a href="result?type=101"><img class="ordinary" src="@|jingji.png|" alt="经济" title="经济"><img class="active" src="@|jingji-a.png|" alt="经济" title="经济"></a>
+    <a href="result?type=102"><img class="ordinary" src="@|zhengzhi.png|" alt="政治" title="政治"><img class="active" src="@|zhengzhi-a.png|" alt="政治" title="政治"></a>
+    <a href="result?type=103"><img class="ordinary" src="@|wenhua.png|" alt="文化" title="文化"><img class="active" src="@|wenhua-a.png|" alt="文化" title="文化"></a>
+    <a href="result?type=104"><img class="ordinary" src="@|shehui.png|" alt="社会" title="社会"><img class="active" src="@|shehui-a.png|" alt="社会" title="社会"></a>
+    <a href="result?type=105"><img class="ordinary" src="@|shengtai.png|" alt="生态" title="生态"><img class="active" src="@|shengtai-a.png|" alt="生态" title="生态"></a>
+    <a href="result?type=106"><img class="ordinary" src="@|dangjian.png|" alt="党建" title="党建"><img class="active" src="@|dangjian-a.png|" alt="党建" title="党建"></a>
+    <a href="result?type=107"><img class="ordinary" src="@|guofang.png|" alt="国防" title="国防"><img class="active" src="@|guofang-a.png|" alt="国防" title="国防"></a>
+    <a href="result?type=108"><img class="ordinary" src="@|waijiao.png|" alt="外交" title="外交"><img class="active" src="@|waijiao-a.png|" alt="外交" title="外交"></a>
   .tab-news.w1200
     .tab-bar.clear
       .item.fl 新闻
@@ -115,37 +115,6 @@
         .page-item 6
         .page-item 7
         .page-item.next 下一页
-  //- rili
-  .bdrl.w1200.clear
-    plug.fl(_name="bdrl" _src="./src/page/bdrl.owo")
-    .fr
-      .title 专题资料库
-      .show2-box.clear
-        .image-item.fl
-          a(href="#" target="_blank")
-            img(src="@|show.png|")
-            p 阐释创新理论，解读重大决策部署——“言之有理”栏目
-        .image-item.fr
-          a(href="#" target="_blank")
-            img(src="@|show.png|")
-            p 阐释创新理论，解读重大决策部署——“言之有理”栏目
-      ul.select-item.clear
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
-        li
-          a(href="#" target="_blank") 党史学习教育
   .tab-box
     .w1200.clear
       .left-box.fl
@@ -189,6 +158,37 @@
               .text
                 h2 杂志发表习近平重要文章
                 p 习近平等党和国家领导人会见探月工程嫦娥五号任务参研参试人员代表并参观月球样品和探月工程成果展览。
+    //- rili
+  .bdrl.w1200.clear
+    plug.fl(_name="bdrl" _src="./src/page/bdrl.owo")
+    .fr
+      .title 专题资料库
+      .show2-box.clear
+        .image-item.fl
+          a(href="#" target="_blank")
+            img(src="@|show.png|")
+            p 阐释创新理论，解读重大决策部署——“言之有理”栏目
+        .image-item.fr
+          a(href="#" target="_blank")
+            img(src="@|show.png|")
+            p 阐释创新理论，解读重大决策部署——“言之有理”栏目
+      ul.select-item.clear
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
+        li
+          a(href="#" target="_blank") 党史学习教育
   .w1200
     .title 学习书库
     .bookshelf
@@ -253,10 +253,8 @@
       document.querySelectorAll('.right-conn .right-item').forEach(element => {
         element.querySelector('.right-item-box').classList.add('active')
         element.querySelector('.left-image').src = element.querySelector('.right-item-box .mini-show').src
-      });
-      
+      }); 
     }
-
   }
 </script>
 
@@ -275,9 +273,9 @@ select:focus, input:focus{
 .search-bar {
   width: 1100px;
   margin: 0 auto;
-  height: 85px;
+  height: 70px;
   select {
-    height: 85px;
+    height: 70px;
     width: 120px;
     font-size: 30px;
     border: none;
@@ -295,14 +293,14 @@ select:focus, input:focus{
     border: none;
     background-color: white;
     display: block;
-    height: 85px;
+    height: 70px;
     width: 760px;
     padding: 0 20px;
     font-size: 24px;
     color: #333333;
   }
   .search-button {
-    height: 85px;
+    height: 70px;
     width: 180px;
     position: relative;
     cursor: pointer;
@@ -362,7 +360,19 @@ select:focus, input:focus{
 .icon-box, .icon-box-2 {
   a {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 28px;
+  }
+  .active {
+    display: none;
+  }
+  a:hover {
+    background-image: linear-gradient(#e1d7af, #cbb670);
+    .ordinary {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
   }
 }
 .w1200.tab-news {
@@ -381,7 +391,7 @@ select:focus, input:focus{
   li {
     line-height: 40px;
     color: #31312d;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
   }
   li:hover, a:hover {
@@ -458,6 +468,7 @@ select:focus, input:focus{
   background-color: #f9f6e8;
   height: 375px;
   padding: 30px 0;
+  margin-bottom: 40px;
 }
 .left-box {
   .left-item {
@@ -574,5 +585,49 @@ select:focus, input:focus{
       color: white;
     }
   }
+}
+.w1200.icon-box-2 {
+  margin-bottom: 40px;
+  a {
+    background-color: #e9ddb0;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 55px;
+    }
+  }
+}
+.w1200.icon-box {
+  margin-bottom: 30px;
+}
+.icon-box {
+  a {
+    background-color: #e9e3cb;
+    border-radius: 10px;
+    height: 60px;
+    position: relative;
+    width: 90px;
+    img {
+      position: absolute;
+      width: 68%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    .active {
+      display: none;
+    }
+  }
+  
 }
 </style>
