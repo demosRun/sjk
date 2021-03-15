@@ -516,7 +516,7 @@ input:focus {
 .icon-box a,
 .icon-box-2 a {
   display: inline-block;
-  margin: 0 28px;
+  margin: 0 27px;
 }
 
 .icon-box .active,
@@ -547,8 +547,20 @@ input:focus {
   width: 33.3%;
   background-color: #eee3b9;
   text-align: center;
-  line-height: 55px;
-  font-size: 28px;
+  line-height: 60px;
+  font-size: 27px;
+  height: 60px;
+  position: relative;
+  cursor: pointer;
+}
+
+.w1200.tab-news .item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .w1200.tab-news .news {
@@ -832,5 +844,25 @@ input:focus {
 
 .icon-box a .active {
   display: none;
+}
+
+.tab-bar .item.active {
+  background-image: linear-gradient(#e1d7af, #cbb670);
+}
+
+.tab-bar .ordinary {
+  display: block;
+}
+
+.tab-bar .show {
+  display: none;
+}
+
+.tab-bar .item.active .ordinary {
+  display: none;
+}
+
+.tab-bar .item.active .show {
+  display: block;
 }
 

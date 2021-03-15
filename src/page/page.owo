@@ -57,64 +57,163 @@
     <a href="result?type=108"><img class="ordinary" src="@|waijiao.png|" alt="外交" title="外交"><img class="active" src="@|waijiao-a.png|" alt="外交" title="外交"></a>
   .tab-news.w1200
     .tab-bar.clear
-      .item.fl 新闻
-      .item.fl 国内
-      .item.fl 国际
-    .news
-      ul
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-        li
-          a(href="#" target="_blank")
-            span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
-            i 来源：人民日报、新华网 【2021-01-02】
-      .pagination
-        .page-item 1
-        .page-item 2
-        .page-item 3
-        .page-item 4
-        .page-item 5
-        .page-item 6
-        .page-item 7
-        .page-item.next 下一页
+      .item.fl
+        img(class="ordinary" src="@|zuixin.png|")
+        img(class="show" src="@|zuixin-a.png|")
+      .item.fl
+        img(class="ordinary" src="@|guonei.png|")
+        img(class="show" src="@|guonei-a.png|")
+      .item.fl
+        img(class="ordinary" src="@|guoji.png|")
+        img(class="show" src="@|guoji-a.png|")
+    .news-box
+      .news
+        ul
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+      .news
+        ul
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述2
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述2
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述2
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+      .news
+        ul
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述3
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述3
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述3
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+          li
+            a(href="#" target="_blank")
+              span 人民的信心和支持就是我们国家奋进的力量——习近平总书记擘画“十四五”发展综述
+              i 来源：人民日报、新华网 【2021-01-02】
+        //- .pagination
+        //-   .page-item 1
+        //-   .page-item 2
+        //-   .page-item 3
+        //-   .page-item 4
+        //-   .page-item 5
+        //-   .page-item 6
+        //-   .page-item 7
+        //-   .page-item.next 下一页
   .tab-box
     .w1200.clear
       .left-box.fl
@@ -254,6 +353,8 @@
         element.querySelector('.right-item-box').classList.add('active')
         element.querySelector('.left-image').src = element.querySelector('.right-item-box .mini-show').src
       }); 
+      // 新闻 国内 国际
+      new tabIt(document.querySelectorAll('.tab-bar .item'), document.querySelectorAll('.news-box .news'), 'mouseover')
     }
   }
 </script>
@@ -360,7 +461,7 @@ select:focus, input:focus{
 .icon-box, .icon-box-2 {
   a {
     display: inline-block;
-    margin: 0 28px;
+    margin: 0 27px;
   }
   .active {
     display: none;
@@ -381,8 +482,19 @@ select:focus, input:focus{
     width: 33.3%;
     background-color: #eee3b9;
     text-align: center;
-    line-height: 55px;
-    font-size: 28px;
+    line-height: 60px;
+    font-size: 27px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
   }
   .news {
     background-color: #f9f6ea;
@@ -629,5 +741,25 @@ select:focus, input:focus{
     }
   }
   
+}
+.tab-bar .item.active {
+  background-image: linear-gradient(#e1d7af, #cbb670);
+}
+
+.tab-bar {
+  .ordinary {
+    display: block;
+  }
+  .show {
+    display: none;
+  }
+}
+.tab-bar .item.active {
+  .ordinary {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
 }
 </style>
