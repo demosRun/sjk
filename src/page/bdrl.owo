@@ -4,35 +4,37 @@
     <img src="http://cpc.people.com.cn/img/MAIN/2020/12/120681/images/ding.png" class="ding1 for-pc">
     <img src="http://cpc.people.com.cn/img/MAIN/2020/12/120681/images/ding.png" class="ding2 for-pc">
     <div class="fr">
+      <img class="show-image" src="http://jhsjk.people.cn/images/t2.jpg">
+      <img class="bottom-show" src="@|logo.png|">
       <div id="datepicker">
         <div class="select-wrap">
           <img src="http://cpc.people.com.cn/img/MAIN/2014/11/114970/images/prev-btn.png" alt="" class="arrow-left1">
           <div class="date-switch-wrap">
-            <select name="" id="" class="select-year"><option value="2021">2021年</option>
-              <option value="2020">2020年</option>
-              <option value="2019">2019年</option>
-              <option value="2018">2018年</option>
-              <option value="2017">2017年</option>
-              <option value="2016">2016年</option>
-              <option value="2015">2015年</option>
-              <option value="2014">2014年</option>
-              <option value="2013">2013年</option>
-              <option value="2012">2012年</option>
+            <select name="" id="" class="select-year">
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
             </select>
             <!-- <span class="span-year">年</span> -->
             <select name="" id="" class="select-month">
-              <option value="12" selected="" disabled="">12月</option>
-              <option value="11" disabled="">11月</option>
-              <option value="10" disabled="">10月</option>
-              <option value="9" disabled="">9月</option>
-              <option value="8" disabled="">8月</option>
-              <option value="7" disabled="">7月</option>
-              <option value="6" disabled="">6月</option>
-              <option value="5" disabled="">5月</option>
-              <option value="4" disabled="">4月</option>
-              <option value="3">3月</option>
-              <option value="2">2月</option>
-              <option value="1">1月</option>
+              <option value="12" selected="" disabled="">12</option>
+              <option value="11" disabled="">11</option>
+              <option value="10" disabled="">10</option>
+              <option value="9" disabled="">9</option>
+              <option value="8" disabled="">8</option>
+              <option value="7" disabled="">7</option>
+              <option value="6" disabled="">6</option>
+              <option value="5" disabled="">5</option>
+              <option value="4" disabled="">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
             </select>
             <!-- <span  class="span-month">月</span> -->
           </div>
@@ -126,7 +128,13 @@
 
 
 <style>
-.content{background:url(@|rili-bg.png|) center top no-repeat;width:826px;height:570px;position:relative;}
+.content{
+  background:url(@|rili-bg.png|) center top no-repeat;
+  width: 780px;
+  height: 550px;
+  position: relative;
+  background-size: 100%;
+}
 .news_wrap {
   margin: 0px 10px;
   height: 490px;
@@ -146,20 +154,20 @@
 .w980{position:relative;}
 .ding1 {
   position: absolute;
-  left: 343px;
+  left: 310px;
   z-index: 2222;
   top: 98px;
 }
 .content .ding2 {
   position: absolute;
-  left: 342px;
+  left: 310px;
   z-index: 2222;
   top: 406px;
 }
 .content .fr {
   width: 370px;
   margin-right: 10px;
-  height: 650px;
+  height: 500px;
   position: relative;
 }
 #datepicker{margin-top: 120px;}
@@ -168,15 +176,23 @@
 
 .ui-datepicker-calendar{border-spacing:0;margin-top:15px;}
 .ui-datepicker-calendar td{margin:0;border:0;}
-.ui-datepicker-calendar th span{width:45px;height:45px;line-height:45px;margin:1px 1px 0 0;background-color:#f0e5e0;font-size:18px;display:block;text-align:center;color:#c33;}
-.ui-state-default, .ui-state-default:link, .ui-state-default:active{width:45px;height:45px;line-height:45px;margin:1px 1px 0 0;background-color:#d65252;font-size:18px;display:block;text-align:center;color:#fff;text-decoration:none;}
+.ui-datepicker-calendar th span{width:40px;height:40px;line-height:40px;margin:1px 1px 0 0;background-color:#f0e5e0;font-size:18px;display:block;text-align:center;color:#c33;}
+.ui-state-default, .ui-state-default:link, .ui-state-default:active{width:40px;height:40px;line-height:40px;margin:1px 1px 0 0;background-color:#d65252;font-size:18px;display:block;text-align:center;color:#fff;text-decoration:none;}
 .ui-datepicker-current-day .ui-state-default{background:url(images/i-active.png) top right no-repeat;}
 /*无法点击的日期*/
 .ui-state-disabled .ui-state-default{color:#a31414;}
 
 
 .news_wrap{display:none;}
-.origin{position:absolute;right:190px;font-size:16px;color:#fff;width:200px;}
+.origin{
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.60);
+  width: 200px;
+  bottom: 51px;
+  text-align: right;
+}
 
 .no_news{font-size: 18px;color: #666;}
 
@@ -185,25 +201,25 @@
     box-sizing: border-box;
 }
 .table-dp {
-  width: 340px;
-  height: 335px;
+  width: 290px;
+  height: 290px;
   display: block;
-  margin-left: 20px;
+  margin-left: 45px;
 }
 
 .table-dp th {
-    height: 45px;
-    line-height: 45px;
-    margin: 1px 1px 0 0;
-    background-color: #f0e5e0;
-    font-size: 18px;
-    text-align: center;
-    color: #c33;
+  height: 40px;
+  line-height: 40px;
+  margin: 1px 1px 0 0;
+  background-color: #f0e5e0;
+  font-size: 16px;
+  text-align: center;
+  color: #c33;
 }
 .table-dp td {
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     font-size: 0;
     
 }
@@ -214,9 +230,9 @@
 
 .table-dp td span {
     display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     font-size: 14px;
     color: #fff;
     background: #d65252;
@@ -246,7 +262,7 @@
 
 .date-switch-wrap {
     color: #fff;
-    /* margin-left: 240px; */
+    margin-right: 20px;
     margin-bottom: 10px;
     text-align: right;
 }
@@ -285,14 +301,27 @@
   width: auto;
 }
 .content .w980 {
-  width: 770px;
-  height: 530px;
+  width: 720px;
+  height: 500px;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
-  background-color: #cd3333;
+  background-color: #de2e27;
+}
+.show-image {
+  position: absolute;
+  width: 278px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.bottom-show {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 30px;
 }
 </style>

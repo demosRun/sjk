@@ -4,7 +4,6 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
   font-size: 14px;
   font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
@@ -96,3 +95,11 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .clearfix:before, .clearfix:after {content:"";display:table;}
 .clearfix:after{clear:both;overflow:hidden;}
+
+.bdrl {
+  margin-bottom: 50px;
+}
+
+.phone .header1 .left {
+  margin-left: 5px;
+}

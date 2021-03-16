@@ -2,37 +2,40 @@
 .home
   plug(_name="module98" _src="https://template.owo.ink/1d56825274321d9c.owo")
   //- 领导人头像
-  img.top(src="@|top.png|")
-  .w1100
+  img.top.no-phone(src="@|top.png|")
+  img.top.no-pc(src="http://jhsjk.people.cn/images/top480.jpg")
+  .w1200
     .search-bar.clear
       select.fl
-        option(value ="all") 全部
+        option(value ="all")
+          span 全部
+          i.sort-icon ▼
         option(value ="content") 内容
       .input-bar.fl
         input(type="text" placeholder="请输入您要查询的信息")
       .search-button.fl
         img(src="@|search-button.png|")
     .bottom-select-bar.clear
-      select.time.fl
-        option(value ="time" disabled="disabled" selected) 时间
-        option(value ="all") 不限
-        option(value ="2021") 2021
-        option(value ="2020") 2020
-        option(value ="2019") 2019
-        option(value ="2018") 2018
-      select.type.fl
-        option(value ="type" disabled="disabled" selected) 类型
-        option(value ="jh") 讲话
-        option(value ="hy") 会议
-        option(value ="hd") 活动
-        option(value ="kc") 考察
-        option(value ="hj") 会见
-        option(value ="cf") 出访
-        option(value ="hd") 函电
-      select.type.fl
-        option(value ="site" disabled="disabled" selected) 领域
+      //- select.time.fl
+      //-   option(value ="time" disabled="disabled" selected) 时间
+      //-   option(value ="all") 不限
+      //-   option(value ="2021") 2021
+      //-   option(value ="2020") 2020
+      //-   option(value ="2019") 2019
+      //-   option(value ="2018") 2018
+      //- select.type.fl
+      //-   option(value ="type" disabled="disabled" selected) 类型
+      //-   option(value ="jh") 讲话
+      //-   option(value ="hy") 会议
+      //-   option(value ="hd") 活动
+      //-   option(value ="kc") 考察
+      //-   option(value ="hj") 会见
+      //-   option(value ="cf") 出访
+      //-   option(value ="hd") 函电
+      //- select.type.fl
+      //-   option(value ="site" disabled="disabled" selected) 领域
       .radio-box.fr
-        input(name="search" type="radio" value="jingque")
+        input(name="search" type="radio" value="jingque" checked)
         label 精确搜索
         label
         input(name="search" type="radio" value="mohu")
@@ -260,7 +263,7 @@
     //- rili
   .bdrl.w1200.clear
     plug.fl(_name="bdrl" _src="./src/page/bdrl.owo")
-    .fr
+    .fr.news
       .title 专题资料库
       .show2-box.clear
         .image-item.fl
@@ -372,32 +375,39 @@ select:focus, input:focus{
   background-color: #bf3022;
 }
 .search-bar {
-  width: 1100px;
+  width: 1200px;
   margin: 0 auto;
   height: 70px;
+  background-color: white;
+  box-shadow: 1px 1px 8px #d2c5c5;
+  border-radius: 3px;
+  overflow: hidden;
   select {
-    height: 70px;
-    width: 120px;
-    font-size: 30px;
+    width: 110px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 30px !important;
     border: none;
-    background-color: #c9ba8c;
-    color: white;
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    background-image: url('@|select.png|');
+    appearance:none;   
+    -moz-appearance:none;   
+    -webkit-appearance:none;
+    background-color: white;
+    color: #333;
     background-repeat: no-repeat;
     background-position: 90px center;
     padding: 0 10px;
+    border-right: 1px solid #ccc;
+    height: 30px;
+    margin: 20px 0;
   }
   input {
     border: none;
     background-color: white;
     display: block;
     height: 70px;
-    width: 760px;
+    width: 870px;
     padding: 0 20px;
-    font-size: 24px;
+    font-size: 18px;
     color: #333333;
   }
   .search-button {
@@ -423,7 +433,7 @@ select:focus, input:focus{
   }
 }
 .bottom-select-bar {
-  width: 980px;
+  width: 1080px;
   margin: 0 auto;
   margin-bottom: 60px;
   padding-left: 118px;
@@ -555,7 +565,7 @@ select:focus, input:focus{
 }
 .bookshelf {
   background-image: url('@|bookshelf.png|');
-  height: 440px;
+  height: 540px;
   background-size: 117% auto;
   background-position: center 346px;
   background-repeat: no-repeat;
@@ -564,6 +574,7 @@ select:focus, input:focus{
   }
 }
 .card3 {
+  margin-bottom: 60px;
   a, img {
     display: block;
     width: 380px;
@@ -657,7 +668,7 @@ select:focus, input:focus{
   display: block;
 }
 .bdrl {
-  .fr {
+  .news {
     width: 360px;
   }
 }
@@ -740,7 +751,6 @@ select:focus, input:focus{
       display: none;
     }
   }
-  
 }
 .tab-bar .item.active {
   background-image: linear-gradient(#e1d7af, #cbb670);

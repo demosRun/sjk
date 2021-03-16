@@ -4,7 +4,7 @@
     <!-- 页面的元信息 -->
     <title>测试预览页面</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=1000, user-scalable=yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
     <meta name="format-detection" content="telephone=no, email=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
@@ -43,7 +43,7 @@
         <a href="http://sports.people.com.cn/" target="_blank">网站地图</a>
       </em>
     </div>
-  </div><img class="top" src="./static/resource/top.png"><div class="w1100"><div class="search-bar clear"><select class="fl"><option value="all">全部</option><option value="content">内容</option></select><div class="input-bar fl"><input type="text" placeholder="请输入您要查询的信息"></div><div class="search-button fl"><img src="./static/resource/search-button.png"></div></div><div class="bottom-select-bar clear"><select class="time fl"><option value="time" disabled="disabled" selected="selected">时间</option><option value="all">不限</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option></select><select class="type fl"><option value="type" disabled="disabled" selected="selected">类型</option><option value="jh">讲话</option><option value="hy">会议</option><option value="hd">活动</option><option value="kc">考察</option><option value="hj">会见</option><option value="cf">出访</option><option value="hd">函电</option></select><select class="type fl"><option value="site" disabled="disabled" selected="selected">领域</option></select><div class="radio-box fr"><input name="search" type="radio" value="jingque"><label>精确搜索</label><label></label><input name="search" type="radio" value="mohu"><label>模糊搜索</label></div></div></div><div class="icon-box clear w1200"><a href="result?form=706&amp;else=501"><img class="ordinary" src="./static/resource/mini-jianghua.png" alt="讲话" title="讲话"><img class="active" src="./static/resource/mini-jianghua-a.png" alt="讲话" title="讲话"></a>
+  </div><img class="top no-phone" src="./static/resource/top.png"><img class="top no-pc" src="http://jhsjk.people.cn/images/top480.jpg"><div class="w1200"><div class="search-bar clear"><select class="fl"><option value="all">全部▼</option><option value="content">内容</option></select><div class="input-bar fl"><input type="text" placeholder="请输入您要查询的信息"></div><div class="search-button fl"><img src="./static/resource/search-button.png"></div></div><div class="bottom-select-bar clear"><div class="radio-box fr"><input name="search" type="radio" value="jingque" checked="checked"><label>精确搜索</label><label></label><input name="search" type="radio" value="mohu"><label>模糊搜索</label></div></div></div><div class="icon-box clear w1200"><a href="result?form=706&amp;else=501"><img class="ordinary" src="./static/resource/mini-jianghua.png" alt="讲话" title="讲话"><img class="active" src="./static/resource/mini-jianghua-a.png" alt="讲话" title="讲话"></a>
 <a href="result?form=701&amp;else=501"><img class="ordinary" src="./static/resource/mini-huiyi.png" alt="会议" title="会议"><img class="active" src="./static/resource/mini-huiyi-a.png" alt="会议" title="会议"></a>
 <a href="result?form=702&amp;else=501"><img class="ordinary" src="./static/resource/mini-huodong.png" alt="活动" title="活动"><img class="active" src="./static/resource/mini-huodong-a.png" alt="活动" title="活动"></a>
 <a href="result?form=703&amp;else=501"><img class="ordinary" src="./static/resource/mini-kaocha.png" alt="考察" title="考察"><img class="active" src="./static/resource/mini-kaocha-a.png" alt="考察" title="考察"></a>
@@ -62,35 +62,37 @@
     <img src="http://cpc.people.com.cn/img/MAIN/2020/12/120681/images/ding.png" class="ding1 for-pc">
     <img src="http://cpc.people.com.cn/img/MAIN/2020/12/120681/images/ding.png" class="ding2 for-pc">
     <div class="fr">
+      <img class="show-image" src="http://jhsjk.people.cn/images/t2.jpg">
+      <img class="bottom-show" src="./static/resource/logo.png">
       <div id="datepicker">
         <div class="select-wrap">
           <img src="http://cpc.people.com.cn/img/MAIN/2014/11/114970/images/prev-btn.png" alt="" class="arrow-left1">
           <div class="date-switch-wrap">
-            <select name="" id="" class="select-year"><option value="2021">2021年</option>
-              <option value="2020">2020年</option>
-              <option value="2019">2019年</option>
-              <option value="2018">2018年</option>
-              <option value="2017">2017年</option>
-              <option value="2016">2016年</option>
-              <option value="2015">2015年</option>
-              <option value="2014">2014年</option>
-              <option value="2013">2013年</option>
-              <option value="2012">2012年</option>
+            <select name="" id="" class="select-year">
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
             </select>
             <!-- <span class="span-year">年</span> -->
             <select name="" id="" class="select-month">
-              <option value="12" selected="" disabled="">12月</option>
-              <option value="11" disabled="">11月</option>
-              <option value="10" disabled="">10月</option>
-              <option value="9" disabled="">9月</option>
-              <option value="8" disabled="">8月</option>
-              <option value="7" disabled="">7月</option>
-              <option value="6" disabled="">6月</option>
-              <option value="5" disabled="">5月</option>
-              <option value="4" disabled="">4月</option>
-              <option value="3">3月</option>
-              <option value="2">2月</option>
-              <option value="1">1月</option>
+              <option value="12" selected="" disabled="">12</option>
+              <option value="11" disabled="">11</option>
+              <option value="10" disabled="">10</option>
+              <option value="9" disabled="">9</option>
+              <option value="8" disabled="">8</option>
+              <option value="7" disabled="">7</option>
+              <option value="6" disabled="">6</option>
+              <option value="5" disabled="">5</option>
+              <option value="4" disabled="">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
             </select>
             <!-- <span  class="span-month">月</span> -->
           </div>
@@ -178,7 +180,7 @@
       </div>
     </div>
   </div>
-</div><div class="fr"><div class="title">专题资料库</div><div class="show2-box clear"><div class="image-item fl"><a href="#" target="_blank"><img src="./static/resource/show.png"><p>阐释创新理论，解读重大决策部署——“言之有理”栏目</p></a></div><div class="image-item fr"><a href="#" target="_blank"><img src="./static/resource/show.png"><p>阐释创新理论，解读重大决策部署——“言之有理”栏目</p></a></div></div><ul class="select-item clear"><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li></ul></div></div><div class="w1200"><div class="title">学习书库</div><div class="bookshelf"><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div></div></div></div><div class="card3 clear"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg"></a><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg"></a><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg"></a></div></div><div id="copyright">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2021 by www.people.com.cn. all rights reserved</div></div>
+</div><div class="fr news"><div class="title">专题资料库</div><div class="show2-box clear"><div class="image-item fl"><a href="#" target="_blank"><img src="./static/resource/show.png"><p>阐释创新理论，解读重大决策部署——“言之有理”栏目</p></a></div><div class="image-item fr"><a href="#" target="_blank"><img src="./static/resource/show.png"><p>阐释创新理论，解读重大决策部署——“言之有理”栏目</p></a></div></div><ul class="select-item clear"><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li><li><a href="#" target="_blank">党史学习教育</a></li></ul></div></div><div class="w1200"><div class="title">学习书库</div><div class="bookshelf"><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-1.png"></a></div><div class="swiper-slide"><a href="#" target="_blank"><img src="./static/resource/book-2.png"></a></div></div></div></div><div class="card3 clear"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg"></a><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg"></a><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2021/0105/MAIN202101050857281691723680681.jpg"></a></div></div><div id="copyright">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2021 by www.people.com.cn. all rights reserved</div></div>
     
 <!-- 框架script文件 -->
 <script src="./static/js/owo.core.js" type="text/javascript" charset="UTF-8"></script>
@@ -209,6 +211,7 @@ owo.script = {
     <script src="https://cunchu.site/owo/script/jquery-1.11.1.min.js" type="text/javascript"  charset="UTF-8"></script>
     <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script>
     <script src="./static/js/tab.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="./static/js/check.js" type="text/javascript"  charset="UTF-8"></script>
 
   </body>
 </html>
